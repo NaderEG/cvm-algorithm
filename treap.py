@@ -18,7 +18,7 @@ class TreapNode:
  
 # A utility function to right rotate subtree rooted with y
 # See the diagram given above.
- 
+size = 0
 def rightRotate(y):
     x = y.left
     T2 = x.right
